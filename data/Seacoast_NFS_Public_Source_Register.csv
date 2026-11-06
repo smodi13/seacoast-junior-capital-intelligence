@@ -1,0 +1,14 @@
+id,entity,claim,source_type,url,limitations,research_date
+S01,Seacoast,Junior capital $5-$30m; revenue >$10m; EBITDA >$2m; <=4x leverage; >=8% current yield,Primary,https://www.seacoastcapital.com/what-we-do/investment-criteria/,Verified firm published investment criteria,2026-11-06
+S02,Seacoast,"Non-control structure and emphasis on cash flow, sub debt/preferred/common",Primary,https://www.seacoastcapital.com/what-we-do/,Verified general approach,2026-11-06
+S03,Seacoast,"Continued and incentivized management, operating history and niche leadership",Primary,https://www.seacoastcapital.com/what-we-do/what-we-look-for/,Verified screening philosophy,2026-11-06
+S04,Seacoast,Oct 2026 BSI recap and acquisition financed by sub debt and preferred,Primary,https://www.seacoastcapital.com/news/seacoast-capital-announces-investment-in-bus-service-inc/,Verified deal precedent; undisclosed amounts,2026-11-06
+S05,NFS,"Founded 1996, founded by Timothy P LaRiviere, four US markets",Company,https://www.nationalfleetservices.com/about-us/,"Company self-report, ownership amount unverified",2026-11-06
+S06,NFS,"Four operating regions; Avon Lake facility up to 25,000 vehicles annual capacity",Company,https://www.nationalfleetservices.com/locations/,"Capacity is stated, not actual throughput",2026-11-06
+S07,NFS,"Fleet upfit services, QC program and U-Haul testimonial",Company,https://www.nationalfleetservices.com/upfit/,Customer concentration/revenues not confirmed,2026-11-06
+S08,NFS,Sunbelt Rentals named in client testimonial and certified installers,Company,https://www.nationalfleetservices.com/,Testimonial does not prove contract size,2026-11-06
+S09,NFS,"Family-owned and operated, 30th anniversary in 2026",Industry,https://www.ntea.com/articles/member-news/national-fleet-services-celebrates-30-years,Trade association publication/search excerpt,2026-11-06
+S10,Industry,Q2 2026 new commercial truck/van average price and demand data,Industry,https://www.ntea.com/articles/member-news/work-truck-solutions-releases-q2-2026-commercial-vehicle-market-analysis,Industry context not a NFS revenue forecast,2026-11-06
+S11,Industry,2026 OEM technical upfitting summit and industry trends,Industry,https://www.ntea.com/articles/association-news/commercial-vehicle-technical-community-gathered-2026-commercial-vehicle,Industry context only,2026-11-06
+S12,NFS,Company workforce category 51-200 and privately held on LinkedIn,Secondary,https://www.linkedin.com/company/national-fleet-services,"Self-reported company directory, not verified company financials",2026-11-06
+S13,Seacoast,"2025 capital fact sheet, 5th fund portfolio / sector examples",Primary,https://www.seacoastcapital.com/wp-content/uploads/2025/07/Seacoast-Capital-Fact-Sheet-Summer-2025.pdf,Historic 2025 publication; investment focus reference,2026-11-06

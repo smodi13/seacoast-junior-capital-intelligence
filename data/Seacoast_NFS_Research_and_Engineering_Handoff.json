@@ -1,0 +1,2134 @@
+{
+  "project_name": "Seacoast Junior Capital Intelligence",
+  "research_date": "2026-11-06",
+  "subject": "National Fleet Services",
+  "analysis_type": "Independent hypothetical screening / EDUCATIONAL / NO relationship to Seacoast or NFS",
+  "nonnegotiable_accuracy": {
+    "nfs_financials_disclosed": false,
+    "nfs_financing_request_verified": false,
+    "transaction_proposed_to_nfs": false,
+    "numbers_are_illustrative": true,
+    "must_label_assumptions_everywhere": true,
+    "no invented_transactions_or_company_financials": true,
+    "must_not_claim_seacoast_endorsement": true,
+    "claude_code_may_research": false
+  },
+  "source_index": [
+    {
+      "id": "S01",
+      "entity": "Seacoast",
+      "claim": "Junior capital $5-$30m; revenue >$10m; EBITDA >$2m; <=4x leverage; >=8% current yield",
+      "source_type": "Primary",
+      "url": "https://www.seacoastcapital.com/what-we-do/investment-criteria/",
+      "limitations": "Verified firm published investment criteria",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S02",
+      "entity": "Seacoast",
+      "claim": "Non-control structure and emphasis on cash flow, sub debt/preferred/common",
+      "source_type": "Primary",
+      "url": "https://www.seacoastcapital.com/what-we-do/",
+      "limitations": "Verified general approach",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S03",
+      "entity": "Seacoast",
+      "claim": "Continued and incentivized management, operating history and niche leadership",
+      "source_type": "Primary",
+      "url": "https://www.seacoastcapital.com/what-we-do/what-we-look-for/",
+      "limitations": "Verified screening philosophy",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S04",
+      "entity": "Seacoast",
+      "claim": "Oct 2026 BSI recap and acquisition financed by sub debt and preferred",
+      "source_type": "Primary",
+      "url": "https://www.seacoastcapital.com/news/seacoast-capital-announces-investment-in-bus-service-inc/",
+      "limitations": "Verified deal precedent; undisclosed amounts",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S05",
+      "entity": "NFS",
+      "claim": "Founded 1996, founded by Timothy P LaRiviere, four US markets",
+      "source_type": "Company",
+      "url": "https://www.nationalfleetservices.com/about-us/",
+      "limitations": "Company self-report, ownership amount unverified",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S06",
+      "entity": "NFS",
+      "claim": "Four operating regions; Avon Lake facility up to 25,000 vehicles annual capacity",
+      "source_type": "Company",
+      "url": "https://www.nationalfleetservices.com/locations/",
+      "limitations": "Capacity is stated, not actual throughput",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S07",
+      "entity": "NFS",
+      "claim": "Fleet upfit services, QC program and U-Haul testimonial",
+      "source_type": "Company",
+      "url": "https://www.nationalfleetservices.com/upfit/",
+      "limitations": "Customer concentration/revenues not confirmed",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S08",
+      "entity": "NFS",
+      "claim": "Sunbelt Rentals named in client testimonial and certified installers",
+      "source_type": "Company",
+      "url": "https://www.nationalfleetservices.com/",
+      "limitations": "Testimonial does not prove contract size",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S09",
+      "entity": "NFS",
+      "claim": "Family-owned and operated, 30th anniversary in 2026",
+      "source_type": "Industry",
+      "url": "https://www.ntea.com/articles/member-news/national-fleet-services-celebrates-30-years",
+      "limitations": "Trade association publication/search excerpt",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S10",
+      "entity": "Industry",
+      "claim": "Q2 2026 new commercial truck/van average price and demand data",
+      "source_type": "Industry",
+      "url": "https://www.ntea.com/articles/member-news/work-truck-solutions-releases-q2-2026-commercial-vehicle-market-analysis",
+      "limitations": "Industry context not a NFS revenue forecast",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S11",
+      "entity": "Industry",
+      "claim": "2026 OEM technical upfitting summit and industry trends",
+      "source_type": "Industry",
+      "url": "https://www.ntea.com/articles/association-news/commercial-vehicle-technical-community-gathered-2026-commercial-vehicle",
+      "limitations": "Industry context only",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S12",
+      "entity": "NFS",
+      "claim": "Company workforce category 51-200 and privately held on LinkedIn",
+      "source_type": "Secondary",
+      "url": "https://www.linkedin.com/company/national-fleet-services",
+      "limitations": "Self-reported company directory, not verified company financials",
+      "accessed": "2026-11-06"
+    },
+    {
+      "id": "S13",
+      "entity": "Seacoast",
+      "claim": "2025 capital fact sheet, 5th fund portfolio / sector examples",
+      "source_type": "Primary",
+      "url": "https://www.seacoastcapital.com/wp-content/uploads/2025/07/Seacoast-Capital-Fact-Sheet-Summer-2025.pdf",
+      "limitations": "Historic 2025 publication; investment focus reference",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "researched_company_facts": [
+    {
+      "claim": "Founded in Detroit in 1996 by Timothy P LaRiviere, founder and CEO still named",
+      "source_ids": [
+        "S05"
+      ]
+    },
+    {
+      "claim": "Company-operated locations: Detroit, Kansas City/Liberty, Avon Lake, and St Louis",
+      "source_ids": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "claim": "The company's Avon Lake Ohio flagship facility advertises capacity for up to 25,000 vehicle modifications per year, not realized volume",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "claim": "NFS performs OEM-adjacent vehicle upfitting, QIP inspection, customization",
+      "source_ids": [
+        "S07"
+      ]
+    },
+    {
+      "claim": "Website shows public testimonials from U-Haul and Sunbelt Rentals, without contract values",
+      "source_ids": [
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "claim": "Family-owned and operated as described in NTEA's July 2026 anniversary item",
+      "source_ids": [
+        "S09"
+      ]
+    },
+    {
+      "claim": "Seacoast targets junior capital of $5m-$30m, >$10m revenue, >$2m EBITDA, up to 4x leverage, >=8% current yield",
+      "source_ids": [
+        "S01"
+      ]
+    },
+    {
+      "claim": "Oct 2026 Seacoast BSI subordinated debt/preferred equity transaction (sector/structure precedent only)",
+      "source_ids": [
+        "S04"
+      ]
+    }
+  ],
+  "assumption_inputs": [
+    {
+      "excel_row": 6,
+      "label": "Illustrative FY0 revenue",
+      "value": 32.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Scenario, not company disclosure",
+      "note": "Unverified, do not describe as NFS revenue"
+    },
+    {
+      "excel_row": 7,
+      "label": "Illustrative FY0 EBITDA margin",
+      "value": 0.17,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario, not company disclosure",
+      "note": "Implied FY0 EBITDA is a formula"
+    },
+    {
+      "excel_row": 8,
+      "label": "D&A / revenue",
+      "value": 0.02,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Noncash annual depreciation and amortization"
+    },
+    {
+      "excel_row": 9,
+      "label": "Maintenance capex / revenue",
+      "value": 0.03,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Normal recurring capex, distinct from funded expansion uses"
+    },
+    {
+      "excel_row": 10,
+      "label": "Incremental NWC / revenue growth",
+      "value": 0.1,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Positive revenue increases consume cash"
+    },
+    {
+      "excel_row": 11,
+      "label": "Cash income tax rate",
+      "value": 0.25,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Cash taxes estimated from EBIT net interest"
+    },
+    {
+      "excel_row": 12,
+      "label": "Opening unrestricted cash",
+      "value": 2.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "No unused financing proceeds remain after close"
+    },
+    {
+      "excel_row": 13,
+      "label": "Opening senior debt",
+      "value": 5.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Pre-close senior debt rolled over"
+    },
+    {
+      "excel_row": 14,
+      "label": "Senior cash interest",
+      "value": 0.07,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Beginning-of-year debt basis"
+    },
+    {
+      "excel_row": 15,
+      "label": "Annual senior amortization",
+      "value": 1.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Capped at outstanding principal"
+    },
+    {
+      "excel_row": 16,
+      "label": "New subordinated debt",
+      "value": 8.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Junior debt funded by hypothetical Seacoast-like investor"
+    },
+    {
+      "excel_row": 17,
+      "label": "Subordinated cash coupon",
+      "value": 0.11,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Cash-pay coupon on junior principal"
+    },
+    {
+      "excel_row": 18,
+      "label": "New preferred equity",
+      "value": 4.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Redeemable at accreted claim"
+    },
+    {
+      "excel_row": 19,
+      "label": "Preferred cash dividend",
+      "value": 0.08,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Assumed annual cash on original invested pref equity"
+    },
+    {
+      "excel_row": 20,
+      "label": "Preferred PIK dividend",
+      "value": 0.03,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Annual accretion on beginning preferred claim"
+    },
+    {
+      "excel_row": 21,
+      "label": "Penny warrant exit participation",
+      "value": 0.05,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Scenario",
+      "note": "Simplified 5% of common-equity residual, zero strike"
+    },
+    {
+      "excel_row": 22,
+      "label": "Hold years",
+      "value": 5,
+      "unit": "years",
+      "classification": "Analyst assumption",
+      "basis": "5 to 7 years Seacoast criterion",
+      "note": "Five-year projection and exit"
+    },
+    {
+      "excel_row": 23,
+      "label": "Facility expansion funding",
+      "value": 7.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Illustrative uses",
+      "note": "One-time funded use, NOT additional projection-period capex"
+    },
+    {
+      "excel_row": 24,
+      "label": "Incremental operating NWC funding",
+      "value": 3.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Illustrative uses",
+      "note": "One-time funded use at transaction closing"
+    },
+    {
+      "excel_row": 25,
+      "label": "Quality / technology investment",
+      "value": 1.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Illustrative uses",
+      "note": "One-time funded use at transaction closing"
+    },
+    {
+      "excel_row": 26,
+      "label": "Fees and contingency",
+      "value": 1.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Illustrative uses",
+      "note": "One-time funded use at transaction closing"
+    },
+    {
+      "excel_row": 27,
+      "label": "Minimum closing cash",
+      "value": 1.0,
+      "unit": "$m",
+      "classification": "Analyst assumption",
+      "basis": "Analyst test",
+      "note": "Illustrative minimum safety cushion"
+    },
+    {
+      "excel_row": 28,
+      "label": "Minimum fixed-charge coverage",
+      "value": 1.2,
+      "unit": "x",
+      "classification": "Analyst assumption",
+      "basis": "Analyst test",
+      "note": "Conservative analyst screening test, not firm covenant"
+    },
+    {
+      "excel_row": 29,
+      "label": "Investor return target",
+      "value": 0.16,
+      "unit": "%",
+      "classification": "Analyst assumption",
+      "basis": "Analyst test",
+      "note": "NOT a disclosed Seacoast target return"
+    },
+    {
+      "excel_row": 30,
+      "label": "Seacoast min revenue",
+      "value": 10.0,
+      "unit": "$m",
+      "classification": "Published criterion",
+      "basis": "https://www.seacoastcapital.com/what-we-do/investment-criteria/",
+      "note": "Firm requires revenue GREATER than threshold"
+    },
+    {
+      "excel_row": 31,
+      "label": "Seacoast min EBITDA",
+      "value": 2.0,
+      "unit": "$m",
+      "classification": "Published criterion",
+      "basis": "https://www.seacoastcapital.com/what-we-do/investment-criteria/",
+      "note": "Firm requires EBITDA GREATER than threshold"
+    },
+    {
+      "excel_row": 32,
+      "label": "Seacoast max debt-equivalent leverage",
+      "value": 4.0,
+      "unit": "x",
+      "classification": "Published criterion",
+      "basis": "https://www.seacoastcapital.com/what-we-do/investment-criteria/",
+      "note": "Conservative model treats preferred as debt-equivalent"
+    },
+    {
+      "excel_row": 33,
+      "label": "Seacoast min blended cash yield",
+      "value": 0.08,
+      "unit": "%",
+      "classification": "Published criterion",
+      "basis": "https://www.seacoastcapital.com/what-we-do/investment-criteria/",
+      "note": "Firm states ability to service >=8% current yield"
+    }
+  ],
+  "scenario_cases": {
+    "Base Case": {
+      "forecast_years": [
+        "FY0",
+        "FY1",
+        "FY2",
+        "FY3",
+        "FY4",
+        "FY5"
+      ],
+      "operating_rows": [
+        {
+          "metric": "Revenue growth %",
+          "values": [
+            null,
+            0.06,
+            0.07,
+            0.07,
+            0.06,
+            0.05
+          ]
+        },
+        {
+          "metric": "Revenue ($m)",
+          "values": [
+            32,
+            33.92,
+            36.2944,
+            38.83500800000001,
+            41.165108480000015,
+            43.22336390400002
+          ]
+        },
+        {
+          "metric": "EBITDA margin %",
+          "values": [
+            0.17,
+            0.17,
+            0.17,
+            0.18,
+            0.18,
+            0.19
+          ]
+        },
+        {
+          "metric": "EBITDA ($m)",
+          "values": [
+            5.44,
+            5.766400000000001,
+            6.170048000000001,
+            6.990301440000001,
+            7.409719526400003,
+            8.212439141760003
+          ]
+        },
+        {
+          "metric": "Depreciation & amortization ($m)",
+          "values": [
+            null,
+            0.6784,
+            0.7258880000000001,
+            0.7767001600000002,
+            0.8233021696000004,
+            0.8644672780800003
+          ]
+        },
+        {
+          "metric": "EBIT ($m)",
+          "values": [
+            null,
+            5.088000000000001,
+            5.444160000000001,
+            6.213601280000002,
+            6.586417356800002,
+            7.347971863680002
+          ]
+        },
+        {
+          "metric": "Recurring capex ($m)",
+          "values": [
+            null,
+            1.0176,
+            1.088832,
+            1.1650502400000002,
+            1.2349532544000004,
+            1.2967009171200006
+          ]
+        },
+        {
+          "metric": "Incremental net working capital ($m)",
+          "values": [
+            null,
+            0.19200000000000017,
+            0.23744000000000015,
+            0.2540608000000006,
+            0.23301004800000058,
+            0.20582554240000023
+          ]
+        },
+        {
+          "metric": "Senior opening principal ($m)",
+          "values": [
+            null,
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "metric": "Senior cash interest ($m)",
+          "values": [
+            null,
+            0.35000000000000003,
+            0.28,
+            0.21000000000000002,
+            0.14,
+            0.07
+          ]
+        },
+        {
+          "metric": "Senior principal amortization ($m)",
+          "values": [
+            null,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "metric": "Senior closing principal ($m)",
+          "values": [
+            null,
+            4,
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "metric": "Subordinated debt principal ($m)",
+          "values": [
+            null,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "metric": "Subordinated cash coupon ($m)",
+          "values": [
+            null,
+            0.88,
+            0.88,
+            0.88,
+            0.88,
+            0.88
+          ]
+        },
+        {
+          "metric": "Preferred opening claim ($m)",
+          "values": [
+            null,
+            4,
+            4.12,
+            4.2436,
+            4.370908,
+            4.50203524
+          ]
+        },
+        {
+          "metric": "Preferred PIK accretion ($m)",
+          "values": [
+            null,
+            0.12,
+            0.1236,
+            0.12730799999999998,
+            0.13112724,
+            0.13506105719999997
+          ]
+        },
+        {
+          "metric": "Preferred closing claim ($m)",
+          "values": [
+            null,
+            4.12,
+            4.2436,
+            4.370908,
+            4.50203524,
+            4.637096297199999
+          ]
+        },
+        {
+          "metric": "Preferred cash dividend ($m)",
+          "values": [
+            null,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.32
+          ]
+        },
+        {
+          "metric": "Cash taxes ($m)",
+          "values": [
+            null,
+            0.9645000000000004,
+            1.0710400000000002,
+            1.2809003200000004,
+            1.3916043392000006,
+            1.5994929659200006
+          ]
+        },
+        {
+          "metric": "Cash available pre-fixed charges ($m)",
+          "values": [
+            null,
+            3.5923000000000007,
+            3.772736000000001,
+            4.29029008,
+            4.550151884800001,
+            5.110419716320001
+          ]
+        },
+        {
+          "metric": "Total senior/junior fixed cash charges ($m)",
+          "values": [
+            null,
+            2.55,
+            2.48,
+            2.4099999999999997,
+            2.34,
+            2.27
+          ]
+        },
+        {
+          "metric": "Annual free cash after charges ($m)",
+          "values": [
+            null,
+            1.042300000000001,
+            1.292736000000001,
+            1.8802900800000004,
+            2.210151884800001,
+            2.840419716320001
+          ]
+        },
+        {
+          "metric": "Opening cash ($m)",
+          "values": [
+            null,
+            2,
+            3.042300000000001,
+            4.335036000000002,
+            6.215326080000002,
+            8.425477964800002
+          ]
+        },
+        {
+          "metric": "Closing cash ($m)",
+          "values": [
+            null,
+            3.042300000000001,
+            4.335036000000002,
+            6.215326080000002,
+            8.425477964800002,
+            11.265897681120004
+          ]
+        },
+        {
+          "metric": "Fixed charge coverage numerator ($m)",
+          "values": [
+            null,
+            3.5923000000000007,
+            3.772736000000001,
+            4.29029008,
+            4.550151884800001,
+            5.110419716320001
+          ]
+        },
+        {
+          "metric": "Fixed charge coverage ratio (x)",
+          "values": [
+            null,
+            1.408745098039216,
+            1.5212645161290326,
+            1.7802033526970957,
+            1.944509352478633,
+            2.2512862186431724
+          ]
+        },
+        {
+          "metric": "Debt-equivalent closing funding ($m)",
+          "values": [
+            null,
+            16.12,
+            15.2436,
+            14.370908,
+            13.50203524,
+            12.6370962972
+          ]
+        },
+        {
+          "metric": "Debt-equivalent leverage (x)",
+          "values": [
+            null,
+            2.79550499445061,
+            2.4705804557760325,
+            2.055835234481676,
+            1.822205981197231,
+            1.5387750312742958
+          ]
+        },
+        {
+          "metric": "Exit enterprise value ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            49.27463485056002
+          ]
+        },
+        {
+          "metric": "Common equity residual ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            47.903436234480026
+          ]
+        },
+        {
+          "metric": "Warrant proceeds to junior investor ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            2.3951718117240013
+          ]
+        },
+        {
+          "metric": "Investor debt + preferred exit repayment ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            15.032268108924
+          ]
+        },
+        {
+          "metric": "Current cash yield receipts ($m)",
+          "values": [
+            null,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2
+          ]
+        },
+        {
+          "metric": "Investor cash flow ($m)",
+          "values": [
+            -12,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            16.232268108924
+          ]
+        },
+        {
+          "metric": "Five-year gross investor IRR",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.13835274911029932
+          ]
+        },
+        {
+          "metric": "Investor gross MOIC (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.752689009077
+          ]
+        },
+        {
+          "metric": "Minimum closing liquidity ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3.042300000000001
+          ]
+        },
+        {
+          "metric": "Minimum annual FCCR (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.408745098039216
+          ]
+        },
+        {
+          "metric": "Initial debt-equivalent PF leverage (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3.1249999999999996
+          ]
+        },
+        {
+          "metric": "Blended current investor yield",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.09999999999999999
+          ]
+        },
+        {
+          "metric": "Illustrative initial EBITDA ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            5.44
+          ]
+        },
+        {
+          "metric": "Illustrative funding screen",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "SCREEN PASS*"
+          ]
+        },
+        {
+          "metric": "Illustrative return/coverage screen",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "RETURN/COVERAGE FAIL"
+          ]
+        }
+      ],
+      "investor_irr": 0.13835274911029932,
+      "gross_moic": 1.752689009077,
+      "min_fccr": 1.408745098039216,
+      "min_cash": 3.042300000000001
+    },
+    "Downside Case": {
+      "forecast_years": [
+        "FY0",
+        "FY1",
+        "FY2",
+        "FY3",
+        "FY4",
+        "FY5"
+      ],
+      "operating_rows": [
+        {
+          "metric": "Revenue growth %",
+          "values": [
+            null,
+            0,
+            0,
+            0.02,
+            0.03,
+            0.03
+          ]
+        },
+        {
+          "metric": "Revenue ($m)",
+          "values": [
+            32,
+            32,
+            32,
+            32.64,
+            33.6192,
+            34.627776
+          ]
+        },
+        {
+          "metric": "EBITDA margin %",
+          "values": [
+            0.17,
+            0.14,
+            0.14,
+            0.15,
+            0.15,
+            0.15
+          ]
+        },
+        {
+          "metric": "EBITDA ($m)",
+          "values": [
+            5.44,
+            4.48,
+            4.48,
+            4.896,
+            5.042879999999999,
+            5.194166399999999
+          ]
+        },
+        {
+          "metric": "Depreciation & amortization ($m)",
+          "values": [
+            null,
+            0.64,
+            0.64,
+            0.6528,
+            0.672384,
+            0.69255552
+          ]
+        },
+        {
+          "metric": "EBIT ($m)",
+          "values": [
+            null,
+            3.8400000000000003,
+            3.8400000000000003,
+            4.2432,
+            4.370495999999999,
+            4.501610879999999
+          ]
+        },
+        {
+          "metric": "Recurring capex ($m)",
+          "values": [
+            null,
+            0.96,
+            0.96,
+            0.9792,
+            1.008576,
+            1.03883328
+          ]
+        },
+        {
+          "metric": "Incremental net working capital ($m)",
+          "values": [
+            null,
+            0,
+            0,
+            0.06400000000000006,
+            0.09791999999999988,
+            0.1008575999999998
+          ]
+        },
+        {
+          "metric": "Senior opening principal ($m)",
+          "values": [
+            null,
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "metric": "Senior cash interest ($m)",
+          "values": [
+            null,
+            0.35000000000000003,
+            0.28,
+            0.21000000000000002,
+            0.14,
+            0.07
+          ]
+        },
+        {
+          "metric": "Senior principal amortization ($m)",
+          "values": [
+            null,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "metric": "Senior closing principal ($m)",
+          "values": [
+            null,
+            4,
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "metric": "Subordinated debt principal ($m)",
+          "values": [
+            null,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "metric": "Subordinated cash coupon ($m)",
+          "values": [
+            null,
+            0.88,
+            0.88,
+            0.88,
+            0.88,
+            0.88
+          ]
+        },
+        {
+          "metric": "Preferred opening claim ($m)",
+          "values": [
+            null,
+            4,
+            4.12,
+            4.2436,
+            4.370908,
+            4.50203524
+          ]
+        },
+        {
+          "metric": "Preferred PIK accretion ($m)",
+          "values": [
+            null,
+            0.12,
+            0.1236,
+            0.12730799999999998,
+            0.13112724,
+            0.13506105719999997
+          ]
+        },
+        {
+          "metric": "Preferred closing claim ($m)",
+          "values": [
+            null,
+            4.12,
+            4.2436,
+            4.370908,
+            4.50203524,
+            4.637096297199999
+          ]
+        },
+        {
+          "metric": "Preferred cash dividend ($m)",
+          "values": [
+            null,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.32
+          ]
+        },
+        {
+          "metric": "Cash taxes ($m)",
+          "values": [
+            null,
+            0.6525000000000001,
+            0.6700000000000002,
+            0.7883,
+            0.8376239999999999,
+            0.8879027199999998
+          ]
+        },
+        {
+          "metric": "Cash available pre-fixed charges ($m)",
+          "values": [
+            null,
+            2.8675000000000006,
+            2.8500000000000005,
+            3.0644999999999993,
+            3.09876,
+            3.1665728
+          ]
+        },
+        {
+          "metric": "Total senior/junior fixed cash charges ($m)",
+          "values": [
+            null,
+            2.55,
+            2.48,
+            2.4099999999999997,
+            2.34,
+            2.27
+          ]
+        },
+        {
+          "metric": "Annual free cash after charges ($m)",
+          "values": [
+            null,
+            0.3175000000000008,
+            0.37000000000000055,
+            0.6544999999999996,
+            0.7587600000000001,
+            0.8965728
+          ]
+        },
+        {
+          "metric": "Opening cash ($m)",
+          "values": [
+            null,
+            2,
+            2.317500000000001,
+            2.6875000000000013,
+            3.342000000000001,
+            4.100760000000001
+          ]
+        },
+        {
+          "metric": "Closing cash ($m)",
+          "values": [
+            null,
+            2.317500000000001,
+            2.6875000000000013,
+            3.342000000000001,
+            4.100760000000001,
+            4.997332800000001
+          ]
+        },
+        {
+          "metric": "Fixed charge coverage numerator ($m)",
+          "values": [
+            null,
+            2.8675000000000006,
+            2.8500000000000005,
+            3.0644999999999993,
+            3.09876,
+            3.1665728
+          ]
+        },
+        {
+          "metric": "Fixed charge coverage ratio (x)",
+          "values": [
+            null,
+            1.1245098039215689,
+            1.149193548387097,
+            1.271576763485477,
+            1.3242564102564103,
+            1.3949659911894272
+          ]
+        },
+        {
+          "metric": "Debt-equivalent closing funding ($m)",
+          "values": [
+            null,
+            16.12,
+            15.2436,
+            14.370908,
+            13.50203524,
+            12.6370962972
+          ]
+        },
+        {
+          "metric": "Debt-equivalent leverage (x)",
+          "values": [
+            null,
+            3.5982142857142856,
+            3.4025892857142854,
+            2.935234477124183,
+            2.6774452773018593,
+            2.4329402110028666
+          ]
+        },
+        {
+          "metric": "Exit enterprise value ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            25.970831999999998
+          ]
+        },
+        {
+          "metric": "Common equity residual ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            18.331068502799997
+          ]
+        },
+        {
+          "metric": "Warrant proceeds to junior investor ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.9165534251399999
+          ]
+        },
+        {
+          "metric": "Investor debt + preferred exit repayment ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            13.55364972234
+          ]
+        },
+        {
+          "metric": "Current cash yield receipts ($m)",
+          "values": [
+            null,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2
+          ]
+        },
+        {
+          "metric": "Investor cash flow ($m)",
+          "values": [
+            -12,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            14.753649722339999
+          ]
+        },
+        {
+          "metric": "Five-year gross investor IRR",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.12036518335888843
+          ]
+        },
+        {
+          "metric": "Investor gross MOIC (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.6294708101949997
+          ]
+        },
+        {
+          "metric": "Minimum closing liquidity ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            2.317500000000001
+          ]
+        },
+        {
+          "metric": "Minimum annual FCCR (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.1245098039215689
+          ]
+        },
+        {
+          "metric": "Initial debt-equivalent PF leverage (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3.1249999999999996
+          ]
+        },
+        {
+          "metric": "Blended current investor yield",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.09999999999999999
+          ]
+        },
+        {
+          "metric": "Illustrative initial EBITDA ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            5.44
+          ]
+        },
+        {
+          "metric": "Illustrative funding screen",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "SCREEN PASS*"
+          ]
+        },
+        {
+          "metric": "Illustrative return/coverage screen",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "RETURN/COVERAGE FAIL"
+          ]
+        }
+      ],
+      "investor_irr": 0.12036518335888843,
+      "gross_moic": 1.6294708101949997,
+      "min_fccr": 1.1245098039215689,
+      "min_cash": 2.317500000000001
+    },
+    "Upside Case": {
+      "forecast_years": [
+        "FY0",
+        "FY1",
+        "FY2",
+        "FY3",
+        "FY4",
+        "FY5"
+      ],
+      "operating_rows": [
+        {
+          "metric": "Revenue growth %",
+          "values": [
+            null,
+            0.1,
+            0.1,
+            0.09,
+            0.08,
+            0.07
+          ]
+        },
+        {
+          "metric": "Revenue ($m)",
+          "values": [
+            32,
+            35.2,
+            38.720000000000006,
+            42.20480000000001,
+            45.581184000000015,
+            48.77186688000002
+          ]
+        },
+        {
+          "metric": "EBITDA margin %",
+          "values": [
+            0.17,
+            0.18,
+            0.19,
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        {
+          "metric": "EBITDA ($m)",
+          "values": [
+            5.44,
+            6.336,
+            7.356800000000002,
+            8.440960000000002,
+            9.116236800000003,
+            9.754373376000004
+          ]
+        },
+        {
+          "metric": "Depreciation & amortization ($m)",
+          "values": [
+            null,
+            0.7040000000000001,
+            0.7744000000000001,
+            0.8440960000000003,
+            0.9116236800000003,
+            0.9754373376000004
+          ]
+        },
+        {
+          "metric": "EBIT ($m)",
+          "values": [
+            null,
+            5.632000000000001,
+            6.582400000000002,
+            7.596864000000002,
+            8.204613120000003,
+            8.778936038400003
+          ]
+        },
+        {
+          "metric": "Recurring capex ($m)",
+          "values": [
+            null,
+            1.056,
+            1.1616000000000002,
+            1.2661440000000004,
+            1.3674355200000003,
+            1.4631560064000004
+          ]
+        },
+        {
+          "metric": "Incremental net working capital ($m)",
+          "values": [
+            null,
+            0.3200000000000003,
+            0.3520000000000003,
+            0.34848000000000073,
+            0.33763840000000017,
+            0.3190682880000004
+          ]
+        },
+        {
+          "metric": "Senior opening principal ($m)",
+          "values": [
+            null,
+            5,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "metric": "Senior cash interest ($m)",
+          "values": [
+            null,
+            0.35000000000000003,
+            0.28,
+            0.21000000000000002,
+            0.14,
+            0.07
+          ]
+        },
+        {
+          "metric": "Senior principal amortization ($m)",
+          "values": [
+            null,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "metric": "Senior closing principal ($m)",
+          "values": [
+            null,
+            4,
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "metric": "Subordinated debt principal ($m)",
+          "values": [
+            null,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "metric": "Subordinated cash coupon ($m)",
+          "values": [
+            null,
+            0.88,
+            0.88,
+            0.88,
+            0.88,
+            0.88
+          ]
+        },
+        {
+          "metric": "Preferred opening claim ($m)",
+          "values": [
+            null,
+            4,
+            4.12,
+            4.2436,
+            4.370908,
+            4.50203524
+          ]
+        },
+        {
+          "metric": "Preferred PIK accretion ($m)",
+          "values": [
+            null,
+            0.12,
+            0.1236,
+            0.12730799999999998,
+            0.13112724,
+            0.13506105719999997
+          ]
+        },
+        {
+          "metric": "Preferred closing claim ($m)",
+          "values": [
+            null,
+            4.12,
+            4.2436,
+            4.370908,
+            4.50203524,
+            4.637096297199999
+          ]
+        },
+        {
+          "metric": "Preferred cash dividend ($m)",
+          "values": [
+            null,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.32
+          ]
+        },
+        {
+          "metric": "Cash taxes ($m)",
+          "values": [
+            null,
+            1.1005000000000003,
+            1.3556000000000004,
+            1.6267160000000005,
+            1.7961532800000006,
+            1.9572340096000007
+          ]
+        },
+        {
+          "metric": "Cash available pre-fixed charges ($m)",
+          "values": [
+            null,
+            3.8594999999999997,
+            4.4876000000000005,
+            5.199620000000001,
+            5.615009600000001,
+            6.014915072000003
+          ]
+        },
+        {
+          "metric": "Total senior/junior fixed cash charges ($m)",
+          "values": [
+            null,
+            2.55,
+            2.48,
+            2.4099999999999997,
+            2.34,
+            2.27
+          ]
+        },
+        {
+          "metric": "Annual free cash after charges ($m)",
+          "values": [
+            null,
+            1.3094999999999999,
+            2.0076000000000005,
+            2.7896200000000015,
+            3.2750096000000015,
+            3.7449150720000026
+          ]
+        },
+        {
+          "metric": "Opening cash ($m)",
+          "values": [
+            null,
+            2,
+            3.3095,
+            5.3171,
+            8.106720000000001,
+            11.381729600000003
+          ]
+        },
+        {
+          "metric": "Closing cash ($m)",
+          "values": [
+            null,
+            3.3095,
+            5.3171,
+            8.106720000000001,
+            11.381729600000003,
+            15.126644672000007
+          ]
+        },
+        {
+          "metric": "Fixed charge coverage numerator ($m)",
+          "values": [
+            null,
+            3.8594999999999997,
+            4.4876000000000005,
+            5.199620000000001,
+            5.615009600000001,
+            6.014915072000003
+          ]
+        },
+        {
+          "metric": "Fixed charge coverage ratio (x)",
+          "values": [
+            null,
+            1.5135294117647058,
+            1.8095161290322583,
+            2.157518672199171,
+            2.399576752136753,
+            2.6497423224669614
+          ]
+        },
+        {
+          "metric": "Debt-equivalent closing funding ($m)",
+          "values": [
+            null,
+            16.12,
+            15.2436,
+            14.370908,
+            13.50203524,
+            12.6370962972
+          ]
+        },
+        {
+          "metric": "Debt-equivalent leverage (x)",
+          "values": [
+            null,
+            2.544191919191919,
+            2.072042192257503,
+            1.7025205663810747,
+            1.4810974677621358,
+            1.295531328367309
+          ]
+        },
+        {
+          "metric": "Exit enterprise value ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            68.28061363200003
+          ]
+        },
+        {
+          "metric": "Common equity residual ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            70.77016200680004
+          ]
+        },
+        {
+          "metric": "Warrant proceeds to junior investor ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3.538508100340002
+          ]
+        },
+        {
+          "metric": "Investor debt + preferred exit repayment ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            16.175604397540003
+          ]
+        },
+        {
+          "metric": "Current cash yield receipts ($m)",
+          "values": [
+            null,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            1.2
+          ]
+        },
+        {
+          "metric": "Investor cash flow ($m)",
+          "values": [
+            -12,
+            1.2,
+            1.2,
+            1.2,
+            1.2,
+            17.375604397540002
+          ]
+        },
+        {
+          "metric": "Five-year gross investor IRR",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.15145995334855855
+          ]
+        },
+        {
+          "metric": "Investor gross MOIC (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.8479670331283335
+          ]
+        },
+        {
+          "metric": "Minimum closing liquidity ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3.3095
+          ]
+        },
+        {
+          "metric": "Minimum annual FCCR (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.5135294117647058
+          ]
+        },
+        {
+          "metric": "Initial debt-equivalent PF leverage (x)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3.1249999999999996
+          ]
+        },
+        {
+          "metric": "Blended current investor yield",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.09999999999999999
+          ]
+        },
+        {
+          "metric": "Illustrative initial EBITDA ($m)",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            5.44
+          ]
+        },
+        {
+          "metric": "Illustrative funding screen",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "SCREEN PASS*"
+          ]
+        },
+        {
+          "metric": "Illustrative return/coverage screen",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "RETURN/COVERAGE FAIL"
+          ]
+        }
+      ],
+      "investor_irr": 0.15145995334855855,
+      "gross_moic": 1.8479670331283335,
+      "min_fccr": 1.5135294117647058,
+      "min_cash": 3.3095
+    }
+  },
+  "warrant_pricing_sensitivity": [
+    {
+      "warrant_fraction": 0,
+      "warrant_exit_m": 0,
+      "moic": 1.5530913580999999,
+      "irr": 0.10854952679502418,
+      "test": "BELOW HURDLE"
+    },
+    {
+      "warrant_fraction": 0.03,
+      "warrant_exit_m": 1.4371030870344008,
+      "moic": 1.6728499486862,
+      "irr": 0.12684105669420237,
+      "test": "BELOW HURDLE"
+    },
+    {
+      "warrant_fraction": 0.05,
+      "warrant_exit_m": 2.3951718117240013,
+      "moic": 1.752689009077,
+      "irr": 0.13835274911029932,
+      "test": "BELOW HURDLE"
+    },
+    {
+      "warrant_fraction": 0.08,
+      "warrant_exit_m": 3.8322748987584023,
+      "moic": 1.8724475996632002,
+      "irr": 0.15472544799209198,
+      "test": "BELOW HURDLE"
+    },
+    {
+      "warrant_fraction": 0.09,
+      "warrant_exit_m": 4.311309261103202,
+      "moic": 1.9123671298586,
+      "irr": 0.15996607267164742,
+      "test": "BELOW HURDLE"
+    },
+    {
+      "warrant_fraction": 0.1,
+      "warrant_exit_m": 4.790343623448003,
+      "moic": 1.952286660054,
+      "irr": 0.16510617039312458,
+      "test": "HURDLE PASS"
+    },
+    {
+      "warrant_fraction": 0.12,
+      "warrant_exit_m": 5.748412348137603,
+      "moic": 2.0321257204448,
+      "irr": 0.17510165432060681,
+      "test": "HURDLE PASS"
+    }
+  ],
+  "minimum_base_case_warrant_for_assumed_16_pct_IRR": 0.09006537946216361,
+  "research_decision": {
+    "position": "DO NOT APPROVE proposed terms. CONDITIONAL DESKTOP DILIGENCE ONLY.",
+    "base_irr_pct": 0.13835274911029932,
+    "downside_irr_pct": 0.12036518335888843,
+    "upside_irr_pct": 0.15145995334855855,
+    "analyst_target": 0.16,
+    "why": "Current 5% warrants fall short of target IRR even upside; downside FCCR is below 1.20x; NFS finances, ownership, financing need unverified",
+    "possible_response": "Explore a 10% warrant as a negotiation sensitivity only if diligence confirms business fundamentals and downside coverage protections are redesigned; not an approved term sheet."
+  },
+  "diligence_questions": [
+    {
+      "id": "Q01",
+      "workstream": "Financials",
+      "evidence_needed": "Three audited / reviewed income statements, balance sheets and cash flows",
+      "priority": "CRITICAL",
+      "status": "Open",
+      "rationale": "Revenue and EBITDA unverified"
+    },
+    {
+      "id": "Q02",
+      "workstream": "Quality of earnings",
+      "evidence_needed": "Monthly EBITDA bridges, adjustments, owner expense, recognized revenue",
+      "priority": "CRITICAL",
+      "status": "Open",
+      "rationale": "No verified EBITDA / QoE"
+    },
+    {
+      "id": "Q03",
+      "workstream": "Capital request",
+      "evidence_needed": "Verify management seeks growth financing and proposed uses",
+      "priority": "CRITICAL",
+      "status": "Open",
+      "rationale": "No evidence of a financing mandate"
+    },
+    {
+      "id": "Q04",
+      "workstream": "Debt",
+      "evidence_needed": "Existing senior agreements, collateral, liens and intercreditor consent",
+      "priority": "CRITICAL",
+      "status": "Open",
+      "rationale": "Senior debt figure illustrative only"
+    },
+    {
+      "id": "Q05",
+      "workstream": "Ownership",
+      "evidence_needed": "Founder and management cap table, incentives, option rights",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Family-operated does not prove % ownership"
+    },
+    {
+      "id": "Q06",
+      "workstream": "Contracts",
+      "evidence_needed": "Customer-level revenue, pricing, terms, renewals and commitments",
+      "priority": "CRITICAL",
+      "status": "Open",
+      "rationale": "U-Haul/Sunbelt testimonials not contracts"
+    },
+    {
+      "id": "Q07",
+      "workstream": "Utilization",
+      "evidence_needed": "Actual volumes per plant, throughput vs capacity, revenue per completed unit",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "25,000 is Ohio capacity, not realized volume"
+    },
+    {
+      "id": "Q08",
+      "workstream": "Backlog",
+      "evidence_needed": "OEM allocations, lead times, shipment schedules and cancellation history",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "OEM dependencies could be material"
+    },
+    {
+      "id": "Q09",
+      "workstream": "Quality",
+      "evidence_needed": "Defect, rework, field service, recalls, warranty reserves and claims",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Industry product safety and liability exposure"
+    },
+    {
+      "id": "Q10",
+      "workstream": "Labor",
+      "evidence_needed": "Plant staffing, overtime, throughput, productivity and skilled labor turnover",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Operational margin risk"
+    },
+    {
+      "id": "Q11",
+      "workstream": "Capex",
+      "evidence_needed": "Detailed funded capex budget, milestone plan, vendor bids and expected ROI",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Uses completely illustrative"
+    },
+    {
+      "id": "Q12",
+      "workstream": "Working capital",
+      "evidence_needed": "A/R aging, inventory turns, prepaid OEM materials and payables",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Working capital requirement unknown"
+    },
+    {
+      "id": "Q13",
+      "workstream": "Insurance",
+      "evidence_needed": "Product liability policies, excess coverage, claims and legal disputes",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Safety-related business"
+    },
+    {
+      "id": "Q14",
+      "workstream": "Tax and legal",
+      "evidence_needed": "Entity structure, tax deductibility of debt, state registrations and permits",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Modeled tax shield not legal advice"
+    },
+    {
+      "id": "Q15",
+      "workstream": "Refinance",
+      "evidence_needed": "Term loan availability and future refinancing/exit capacity at maturity",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Exit at assumed multiple is unverified"
+    },
+    {
+      "id": "Q16",
+      "workstream": "Valuation",
+      "evidence_needed": "Recent private company peer transactions and supportable exit multiples",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "5-7x assumed, NOT observed market comps"
+    },
+    {
+      "id": "Q17",
+      "workstream": "Sensitivity",
+      "evidence_needed": "Minimum EBITDA to service junior current yield in a cyclical slowdown",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Downside case may understate volatility"
+    },
+    {
+      "id": "Q18",
+      "workstream": "Governance",
+      "evidence_needed": "Board observer rights, information covenants, negative controls and redemptions",
+      "priority": "HIGH",
+      "status": "Open",
+      "rationale": "Legal term sheet not yet negotiated"
+    }
+  ],
+  "artifact_contract": {
+    "live_spreadsheet": "Seacoast_NFS_Formula_Driven_Underwriting.xlsx",
+    "source_of_truth": "The Excel workbook's formulas govern every output. JSON is a read-only, as-of snapshot for development.",
+    "engineering_only": "Claude Code can build UI, app, local data adapters, PDF export, tests, and deployment. No external source research, new diligence findings, new assumptions, or investment conclusions.",
+    "required_app_pages": [
+      "Executive Screen",
+      "Company Profile",
+      "Deal Structure",
+      "Operating Cases",
+      "Investor Returns",
+      "Pricing Sensitivity",
+      "Risks and Diligence",
+      "Evidence Library",
+      "Downloads"
+    ],
+    "disclosure": "Independent illustrative underwriting. NFS has not disclosed financial statements to this project and has not solicited an investment. Not affiliated with Seacoast Capital or NFS."
+  }
+}
