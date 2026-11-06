@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import { Card, DataTable, PageTitle, SandboxBar, ScenarioTabs, ScreenPill, Stat } from "@/components/ui";
-import { FlowBars, Waterfall } from "@/components/charts";
+import { Body, Card, DataTable, PageTitle, SandboxBar, ScenarioTabs, ScreenPill, Stat } from "@/components/ui";
+import { FlowBars, PALETTE, SeriesChart, Waterfall } from "@/components/charts";
 import { fmtM, fmtMn, fmtPct, fmtX } from "@/lib/format";
 import { useSandbox } from "@/lib/sandbox";
 import type { ScenarioKey } from "@/lib/engine";
@@ -39,6 +39,7 @@ export default function Returns() {
       <PageTitle kicker="Module 5 | Investor returns" title="Investor cash flows, exit waterfall and gross returns">
         Mirrors the Excel model: interest and preferred cash dividends annually; preferred PIK accretes to the exit claim; senior debt amortizes before exit; at FY5 senior, subordinated and accreted preferred claims rank ahead of common equity, in which the penny warrant participates.
       </PageTitle>
+      <Body>
       <SandboxBar />
       <ScenarioTabs value={k} onChange={setK} />
       <div className="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -73,6 +74,12 @@ export default function Returns() {
         </Card>
       </div>
 
+      <Card className="mb-6">
+        <SeriesChart title={`${SCN_LABEL[k]}: preferred claim accreting through PIK ($m)`} fmt={(v) => `$${v.toFixed(2)}m`}
+          data={yrs.map((y) => ({ name: `FY${y}`, "Preferred claim": y === 0 ? a.pref : r.prefClose[y], "Cumulative PIK": y === 0 ? 0 : r.prefClose[y] - a.pref }))}
+          series={[{ key: "Preferred claim", label: "Preferred claim (accreted)", color: PALETTE.TEAL, kind: "area" }, { key: "Cumulative PIK", label: "Cumulative PIK accrual", color: PALETTE.CHAMP, kind: "line" }]} h={220} />
+      </Card>
+
       <Card title="Exit distribution detail">
         <DataTable caption="Exit distribution" head={["Component", "$m"]} rows={[
           ["Exit enterprise value (FY5 EBITDA × multiple)", fmtMn(e.enterpriseValue)],
@@ -84,6 +91,7 @@ export default function Returns() {
           ["Investor debt + preferred + warrant at exit", fmtMn(e.investorExitRepayment)],
         ]} />
       </Card>
+      </Body>
     </>
   );
 }

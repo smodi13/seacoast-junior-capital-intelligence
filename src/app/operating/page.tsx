@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
-import { Card, DataTable, NumField, PageTitle, SandboxBar, ScenarioTabs, ScreenPill, Stat } from "@/components/ui";
-import { OperatingChart } from "@/components/charts";
+import { Body, Card, DataTable, NumField, PageTitle, SandboxBar, ScenarioTabs, ScreenPill, Stat } from "@/components/ui";
+import { OperatingChart, PALETTE, SeriesChart } from "@/components/charts";
+import { Reveal } from "@/components/motion";
 import { fmtM, fmtMn, fmtPct, fmtX } from "@/lib/format";
 import { useSandbox } from "@/lib/sandbox";
 import type { Assumptions, ScenarioKey } from "@/lib/engine";
@@ -27,6 +28,7 @@ export default function Operating() {
       <PageTitle kicker="Module 4 | Operating underwriting" title="Five-year operating projections">
         Scenario-defined growth and margin assumptions drive revenue through free cash flow. They are analyst assumptions, not NFS results or management guidance.
       </PageTitle>
+      <Body>
       <SandboxBar />
       <ScenarioTabs value={k} onChange={setK} />
 
@@ -101,6 +103,25 @@ export default function Operating() {
         </p>
         <p className="mt-1 text-xs text-muted">D&amp;A is shown for the EBIT bridge only; it is non-cash and not deducted from free cash flow. Cash taxes reflect deductible senior and subordinated interest. Preferred dividends are not deductible.</p>
       </Card>
+        <div className="mt-10 grid gap-8 lg:grid-cols-2 lg:gap-12">
+          <Reveal><Card>
+            <SeriesChart title={`${SCN_LABEL[k]}: annual free cash flow and closing cash ($m)`} fmt={(v) => `$${v.toFixed(2)}m`}
+              data={yrs.map((y) => ({ name: `FY${y}`, "Free cash flow": r.freeCash[y], "Closing cash": r.closeCash[y] }))}
+              series={[{ key: "Free cash flow", label: "Free cash flow", color: PALETTE.INK, kind: "bar" }, { key: "Closing cash", label: "Closing cash", color: PALETTE.CHAMP, kind: "line" }]} />
+          </Card></Reveal>
+          <Reveal delay={0.08}><Card>
+            <SeriesChart title={`${SCN_LABEL[k]}: fixed-charge coverage and debt-equivalent leverage (x)`} fmt={(v) => `${v.toFixed(2)}x`}
+              refLine={{ y: a.minFccr, label: `Analyst coverage test ${a.minFccr.toFixed(2)}x` }}
+              data={yrs.map((y) => ({ name: `FY${y}`, FCCR: r.fccr[y], Leverage: r.debtEquivLeverage[y] }))}
+              series={[{ key: "FCCR", label: "Fixed-charge coverage", color: PALETTE.TEAL, kind: "line" }, { key: "Leverage", label: "Debt-equivalent leverage", color: PALETTE.INK, kind: "line" }]} />
+          </Card></Reveal>
+          <Reveal><Card>
+            <SeriesChart title={`${SCN_LABEL[k]}: debt and preferred balances, close to FY5 ($m)`} fmt={(v) => `$${v.toFixed(2)}m`}
+              data={[{ name: "Close", Senior: r.seniorOpen[1], Subordinated: r.subPrincipal[1], "Preferred (accreted)": r.prefOpen[1] }, ...yrs.map((y) => ({ name: `FY${y}`, Senior: r.seniorClose[y], Subordinated: r.subPrincipal[y], "Preferred (accreted)": r.prefClose[y] }))]}
+              series={[{ key: "Senior", label: "Senior debt", color: PALETTE.SLATE, kind: "bar", stack: "d" }, { key: "Subordinated", label: "Subordinated debt", color: PALETTE.CHAMP, kind: "bar", stack: "d" }, { key: "Preferred (accreted)", label: "Preferred (accreted)", color: PALETTE.TEAL, kind: "bar", stack: "d" }]} />
+          </Card></Reveal>
+        </div>
+      </Body>
     </>
   );
 }

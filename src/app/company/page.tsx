@@ -1,4 +1,4 @@
-import { Card, LabelTag, PageTitle, SourceTags } from "@/components/ui";
+import { Body, Card, LabelTag, PageTitle, SourceTags } from "@/components/ui";
 import { PROFILE, type Label } from "@/lib/research";
 import { loadSources } from "@/lib/sources";
 
@@ -11,6 +11,7 @@ export default function Company() {
       <PageTitle kicker="Module 2 | Company profile" title="National Fleet Services: what the evidence supports">
         Built only from the supplied source register (S01-S13). Each claim is labeled by evidence quality and linked to its source ID. No financial performance is stated or implied.
       </PageTitle>
+      <Body>
       <div className="mb-6 flex flex-wrap items-center gap-2 text-xs" aria-label="Label legend">
         {LEGEND.map((l) => <LabelTag key={l} label={l} />)}
       </div>
@@ -32,6 +33,7 @@ export default function Company() {
           </Card>
         ))}
       </div>
+      </Body>
     </>
   );
 }

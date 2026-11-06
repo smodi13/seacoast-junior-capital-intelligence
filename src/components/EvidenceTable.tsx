@@ -30,7 +30,7 @@ export default function EvidenceTable({ sources }: { sources: Source[] }) {
           <select id="ev-e" value={entity} onChange={(e) => setEntity(e.target.value)} className={sel}>{entities.map((t) => <option key={t}>{t}</option>)}</select></div>
       </div>
       <p className="mb-2 text-sm text-muted" role="status" aria-live="polite">{rows.length} of {sources.length} sources</p>
-      <div className="relative overflow-x-auto" role="region" aria-label="Source register" tabIndex={0}>
+      <div data-lenis-prevent className="relative overflow-x-auto" role="region" aria-label="Source register" tabIndex={0}>
         <table className="w-full min-w-[56rem] text-sm">
           <caption className="sr-only">Public source register</caption>
           <thead><tr className="border-b-2 border-navy-900 text-left text-xs uppercase text-muted">

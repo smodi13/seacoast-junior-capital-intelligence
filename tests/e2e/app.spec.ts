@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const PAGES = [
-  ["/", "DO NOT INVEST AS PRICED"], ["/company", "what the evidence supports"], ["/capital", "Illustrative $12 million"],
+  ["/", "DO NOT INVEST AS PRICED"], ["/company", "what the evidence supports"], ["/capital", "claim by claim"],
   ["/operating", "Five-year operating projections"], ["/returns", "Investor cash flows"], ["/pricing", "Pricing lab"],
   ["/diligence", "Research-backed risk register"], ["/evidence", "Public source register"], ["/documents", "Document library"],
 ] as const;
@@ -40,7 +40,7 @@ test.describe("executive screen reference values", () => {
     await expect(t).toContainText("15.1%");
     await expect(page.getByText("3.13x").first()).toBeVisible();
     await expect(page.getByText("10.0%").first()).toBeVisible();
-    await expect(page.getByText("only to the illustrative structure")).toBeVisible();
+    await expect(page.getByText("only to the illustrative structure").first()).toBeVisible();
     await expect(page.getByText("analyst assumption", { exact: false }).first()).toBeVisible();
   });
 });
@@ -55,18 +55,18 @@ test.describe("sandbox scenario editing (integration)", () => {
 
     // client-side navigation keeps sandbox state
     await warrant.fill("10");
-    if (page.viewportSize()!.width < 1024) await page.locator('button[aria-controls="nav-list"]').click();
+    if (page.viewportSize()!.width < 1280) await page.locator('button[aria-controls="nav-list"]').click();
     await page.locator('nav[aria-label="Primary"] a[href="/returns"]').click();
     await expect(page.getByRole("status").filter({ hasText: "SANDBOX: edited assumptions" })).toBeVisible();
     await expect(page.getByText("16.5%").first()).toBeVisible(); // 10% warrant -> 16.5% (workbook sensitivity row)
 
     // invalid input -> message and last valid results retained
-    if (page.viewportSize()!.width < 1024) await page.locator('button[aria-controls="nav-list"]').click();
+    if (page.viewportSize()!.width < 1280) await page.locator('button[aria-controls="nav-list"]').click();
     await page.locator('nav[aria-label="Primary"] a[href="/capital"]').click();
     await warrant.fill("150");
     await expect(page.getByRole("alert").filter({ hasText: "between 0% and 100%" })).toBeVisible();
     await expect(warrant).toHaveAttribute("aria-invalid", "true");
-    await page.getByLabel(/^Subordinated debt/).fill("-1");
+    await page.getByRole("textbox", { name: /^Subordinated debt/ }).fill("-1");
     await expect(page.getByRole("alert").filter({ hasText: "zero or greater" })).toBeVisible();
 
     await page.getByRole("button", { name: "Reset to baseline" }).click();
@@ -95,7 +95,7 @@ test.describe("pricing lab", () => {
     await expect(page.getByText(/Investor-only improvement/)).toBeVisible();
     const all = page.getByRole("table", { name: "Scenario outcomes at lab terms" });
     await expect(all.getByRole("row", { name: /Downside/ })).toContainText("FAIL");
-    await page.getByRole("button", { name: "Reset to baseline" }).click();
+    await page.getByRole("button", { name: "Reset to reference case" }).click();
     await expect(page.getByText("BELOW HURDLE").first()).toBeVisible();
   });
   test("higher coupon helps investor but hurts credit", async ({ page }) => {
@@ -116,7 +116,7 @@ test.describe("diligence", () => {
     const row = page.getByTestId("dd-row").first();
     await expect(row).toContainText("OPEN / NOT VERIFIED");
     await expect(page.getByText("VERIFIED", { exact: true })).toHaveCount(0);
-    await page.getByRole("button", { name: "CRITICAL" }).click();
+    await page.getByRole("button", { name: "CRITICAL", exact: true }).click();
     await expect(page.getByTestId("dd-row")).toHaveCount(5);
   });
 });
@@ -192,7 +192,7 @@ test.describe("mobile layout", () => {
     await btn.focus();
     await page.keyboard.press("Enter");
     await expect(btn).toHaveAttribute("aria-expanded", "true");
-    await expect(page.locator('nav a[href="/pricing"]')).toBeVisible();
+    await expect(page.locator(`nav[aria-label="Primary"] a[href="/pricing"]`)).toBeVisible();
   });
 });
 
@@ -200,6 +200,7 @@ test.describe("accessibility", () => {
   for (const [url] of PAGES) {
     test(`axe: no serious/critical violations on ${url}`, async ({ page }) => {
       await open(page, url);
+      await page.waitForTimeout(1800); // let entrance animations settle
       const r = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze();
       const bad = r.violations.filter((v) => v.impact === "serious" || v.impact === "critical");
       expect(bad.map((v) => `${v.id}: ${v.nodes.map((n) => n.target.join(" ")).slice(0, 3).join(" | ")}`)).toEqual([]);

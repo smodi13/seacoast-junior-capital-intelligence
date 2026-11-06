@@ -1,4 +1,4 @@
-import { Card, PageTitle } from "@/components/ui";
+import { Body, Card, PageTitle } from "@/components/ui";
 import { loadDocs } from "@/lib/sources";
 import { H } from "@/lib/baseline";
 
@@ -9,6 +9,7 @@ export default function Documents() {
       <PageTitle kicker="Module 9 | Investment documents" title="Document library">
         Original, unmodified files from the research package. Investment conclusions and workbook formulas are exactly as supplied.
       </PageTitle>
+      <Body>
       <ul className="grid gap-4 md:grid-cols-2">
         {docs.map((d) => (
           <li key={d.file}>
@@ -20,13 +21,14 @@ export default function Documents() {
                 <dt className="text-muted">SHA-256</dt><dd className="num break-all text-xs">{d.sha256}</dd>
               </dl>
               <a href={`/downloads/${d.file}`} download={d.file} data-testid={`dl-${d.file}`}
-                className="inline-block rounded-sm bg-navy-900 px-4 py-2 text-sm font-semibold text-white no-underline hover:bg-navy-800 hover:text-white">
-                Download {d.kind}
+                className="btn btn-solid">
+                Download {d.kind} <span className="arrow" aria-hidden="true">↓</span>
               </a>
             </Card>
           </li>
         ))}
       </ul>
+      </Body>
     </>
   );
 }

@@ -79,10 +79,10 @@ export const PROFILE: Section[] = [
 ];
 
 export const LABEL_STYLE: Record<Label, string> = {
-  "VERIFIED PUBLIC FACT": "bg-teal-50 text-teal-900 border-teal-700/40",
-  "COMPANY SELF-REPORT": "bg-sky-50 text-sky-900 border-sky-700/40",
-  "ANALYST INTERPRETATION": "bg-amber-50 text-amber-900 border-amber-700/40",
-  "NOT VERIFIED": "bg-rose-50 text-rose-900 border-rose-700/40",
+  "VERIFIED PUBLIC FACT": "bg-teal-500/12 text-teal-700 border-teal-500/50",
+  "COMPANY SELF-REPORT": "bg-sky-600/10 text-sky-800 border-sky-700/40",
+  "ANALYST INTERPRETATION": "bg-warn/12 text-warn border-warn/50",
+  "NOT VERIFIED": "bg-bad/10 text-bad border-bad/50",
 };
 
 export const DILIGENCE = H.diligence_questions;
